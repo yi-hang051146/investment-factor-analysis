@@ -116,19 +116,8 @@ dmypy.json
 
 # Data files - 根据你的情况决定是否上传
 # 如果数据文件很大(>100MB)，强烈建议不要上传
-data/raw_data/
-data/cleaned_data/
-data/STK_MKT_FIVEFACMONTH.csv  # 忽略五因子数据，如果不想上传
-data/版权声明.pdf  # 忽略版权声明
-
-# Output files
-*.csv
-*.md
-
-# Large specific files
-data/cleaned_data/master_panel_filtered.csv
-data/cleaned_data/tradable_monthly.csv
-data/raw_data/FS_Combas(Merge Query).csv
+data/
+output/
 
 # OS generated files
 .DS_Store
