@@ -118,6 +118,8 @@ dmypy.json
 # 如果数据文件很大(>100MB)，强烈建议不要上传
 data/raw_data/
 data/cleaned_data/
+data/STK_MKT_FIVEFACMONTH.csv  # 忽略五因子数据，如果不想上传
+data/版权声明.pdf  # 忽略版权声明
 
 # Output files
 *.csv
